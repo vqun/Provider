@@ -1,0 +1,30 @@
+{
+  "name": "x-react-router",
+  "version": "1.0.0",
+  "description": "Rewirte react-redux's Provider for x-react-router. Use to combine store when using C-SPA.",
+  "author": "veequn@qq.com",
+  "keywords": [
+    "x-react-router",
+    "Provider",
+    "react-redux",
+    "redux"
+  ],
+  "maintainers": [
+    "veequn@qq.com"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/vqun/Provider",
+  "main": "./lib/index.js",
+  "bugs": {
+    "url": "https://github.com/vqun/Provider/issues",
+    "email": "veequn@qq.com"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0",
+    "redux": "^3.5.2"
+  },
+  "scripts": {
+    "build": "`npm bin`/babel src -d lib",
+    "pub": "npm version patch ; git push ; npm publish"
+  }
+}
