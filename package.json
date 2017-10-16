@@ -1,5 +1,5 @@
 {
-  "name": "x-react-router",
+  "name": "x-provider",
   "version": "1.0.0",
   "description": "Rewirte react-redux's Provider for x-react-router. Use to combine store when using C-SPA.",
   "author": "veequn@qq.com",
